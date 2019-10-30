@@ -18,6 +18,13 @@
   border-right: none;
 }
 
+.outer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: FreeMono;
+}
+
 .link {
   color: black;
   padding: 15px;
@@ -30,7 +37,6 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  font-family: FreeMono;
 }
 
 .list {
@@ -46,7 +52,7 @@ img {
     height: auto;
 }
 
-@media(min-width: 920px) {
+@media(min-width: 700px) {
     .sidebox {
         flex-direction: row;
         justify-content: space-between;
@@ -54,6 +60,7 @@ img {
 
     .list {
         text-align: right;
+        max-width: 400px;
     }
 
     .content {
