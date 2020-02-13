@@ -30,6 +30,7 @@
     flex-direction: column;
     justify-content: space-between;
     font-family: FreeMono;
+    height: -webkit-fit-content;
 }
 
 .link {
