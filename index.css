@@ -67,7 +67,7 @@ img {
     height: auto;
 }
 
-@media(min-width: 800px) {
+@media(min-width: 1000px) {
     .sidebox {
         flex-direction: row;
         justify-content: space-between;
@@ -83,6 +83,7 @@ img {
 
     .content {
         padding: 2%;
+        max-width: 1500px;
         padding-right: 50px;
     }
 
