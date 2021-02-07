@@ -79,6 +79,7 @@ img {
 
     .list {
         text-align: right;
+	display: block;
     }
 
     .content {
