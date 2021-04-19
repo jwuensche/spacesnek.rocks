@@ -73,10 +73,6 @@ img {
         justify-content: space-between;
     }
 
-    .outer {
-        height: 100%;
-    }
-
     .list {
         text-align: right;
 	display: block;
